@@ -2,33 +2,40 @@
 
 #include <iostream>
 
-
 class Matrixs
 {
 private:
-	// Матрица А
-	int column_matrixA;
+	// Matrix А
 	int rows_matrixA;
+	int columns_matrixA;
 	int** matrixA;
 
-	// Матрица В
-	int column_matrixB;
+	// Matrix В
 	int rows_matrixB;
+	int columns_matrixB;
 	int** matrixB;
 
-	// Матрица С
-	int column_result;
+	// Matrix С
 	int rows_result;
+	int columns_result;
 	int** matrix_result;
 
 public:
-	 Matrixs(int _column_matrixA, int _rows_matrixA, int _column_matrixB, int _rows_matrixB);
+	 Matrixs(int _rows_matrixA, int _column_matrixA, int _rows_matrixB, int _column_matrixB);
+	 // deleting allocated memory
 	~Matrixs();
+
+	// initialization matrix А
 	void Init_MatrixA();
+	// initialization matrix В
 	void Init_MatrixB();
+	// multiplication matrix А и B
 	void Multiplication();
+	// output matrix А
 	void Write_MatrixA();
+	// output matrix В
 	void Write_MatrixB();
+	// output matrix C
 	void Write_Matrix_Result();
 };
 
