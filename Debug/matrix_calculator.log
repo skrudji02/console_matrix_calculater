@@ -1,4 +1,5 @@
-﻿  Matrixs.cpp
+﻿  Menu.cpp
   matrix_calculator.cpp
   Создание кода...
+C:\Users\Артём\Desktop\прога\matrix_calculator\Menu.cpp(64): warning C4715: Menu::Matrix_Multiplication: значение возвращается не при всех путях выполнения
   matrix_calculator.vcxproj -> C:\Users\Артём\Desktop\прога\matrix_calculator\Debug\matrix_calculator.exe

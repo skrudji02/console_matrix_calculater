@@ -31,6 +31,8 @@ public:
 	void Init_MatrixB();
 	// multiplication matrix À è B
 	void Multiplication();
+	// raises to a degree
+	void Square(int degree);
 	// output matrix À
 	void Write_MatrixA();
 	// output matrix Â

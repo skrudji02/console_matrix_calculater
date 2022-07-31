@@ -105,6 +105,18 @@ void Matrixs::Multiplication()
 	}
 }
 
+// raises to a degree
+void Matrixs::Square(int degree)
+{
+	for (int i = 0; i < rows_matrixA; i++)
+	{
+		for (int j = 0; j < columns_matrixA; j++)
+		{
+			matrixA[i][j] = pow(matrixA[i][j],degree);
+		}
+	}
+}
+
 // output matrix À
 void Matrixs::Write_MatrixA()
 {
